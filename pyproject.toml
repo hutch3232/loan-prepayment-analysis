@@ -1,0 +1,28 @@
+[project]
+name = "opt-payment"
+version = "0.1.0"
+description = "Loan prepayment scenario analysis"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "amortization>=2.5.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "scipy>=1.16.3",
+]
+
+[tool.ruff.lint]
+select = [
+    "B",
+    "C4",
+    "E",
+    "F",
+    "ICN",
+    "ISC",
+    "I",
+    "N",
+    "RET",
+    "RUF",
+    "Q",
+    "W"
+]
