@@ -22,16 +22,23 @@ build-backend = "uv_build"
 
 [tool.ruff.lint]
 select = [
+    "A",
     "B",
     "C4",
     "E",
     "F",
+    "FURB",
+    "I",
     "ICN",
     "ISC",
-    "I",
     "N",
+    "PERF",
+    "PIE",
     "RET",
     "RUF",
+    "S",
+    "SIM",
+    "UP",
     "Q",
     "W"
 ]
