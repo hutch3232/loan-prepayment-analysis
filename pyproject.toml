@@ -1,15 +1,24 @@
 [project]
-name = "opt-payment"
+name = "loan-opt"
 version = "0.1.0"
 description = "Loan prepayment scenario analysis"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "amortization>=2.5.0",
-    "matplotlib>=3.10.7",
     "numpy>=2.3.4",
+    "plotly>=6.5.0",
     "scipy>=1.16.3",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.10,<0.10.0"]
+build-backend = "uv_build"
 
 [tool.ruff.lint]
 select = [
